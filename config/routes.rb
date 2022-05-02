@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
   get "/pages" => "pages#index"
-  get "/practice" => "practice#index"
+
+  get "/examples" => "examples#index"
 end
