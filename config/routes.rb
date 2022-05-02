@@ -3,5 +3,11 @@ Rails.application.routes.draw do
 
   get "/examples" => "examples#index"
 
-  get "/listings" => "listings#index"
+  get "/mangal" => "mangal#index"
+
+  get "/pages" => "pages#index"
+  get "/wonders" => "wonders#index"
+  get "/examples" => "examples#index"
+
+  get "/pitman" => "pitmans#message"
 end
