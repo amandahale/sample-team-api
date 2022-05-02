@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+ get "/pages" => "pages#index"
+ get "/routes" => "routes#index"
 
   get "/pages" => "pages#index"
   get "/candy" => "candy#index"
