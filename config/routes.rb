@@ -8,4 +8,5 @@ Rails.application.routes.draw do
   get "/examples" => "examples#index"
   get "/wonders" => "wonders#index"
   get "/pitman" => "pitmans#message"
+  get "stuffs" => "stuffs#index"
 end
